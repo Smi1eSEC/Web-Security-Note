@@ -1,5 +1,5 @@
 # [Web-Security-Note](https://github.com/Smi1e521/Web-Security-Note)
-
+同步更新于：[https://www.smi1e.top/web-security-note/](https://www.smi1e.top/web-security-note/)
 Record some common Web security sites
 
 # 目录：

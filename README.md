@@ -9,6 +9,7 @@ Record some common Web security sites
 - [漏洞环境](#%E6%BC%8F%E6%B4%9E%E7%8E%AF%E5%A2%83)
 - [信息搜集](#%E4%BF%A1%E6%81%AF%E6%90%9C%E9%9B%86)
 - [资源](#%E8%B5%84%E6%BA%90)
+- [文章](%E6%96%87%E7%AB%A0)
 
 # 论坛
 + [先知社区](https://xz.aliyun.com/)
@@ -37,6 +38,8 @@ Record some common Web security sites
 + [solveme](http://solveme.peng.kr/)
 + [ctfhub](https://github.com/ByPupil/ctfhub/tree/master/php_characteristics)
 + [CTF_WEB](https://github.com/wonderkun/CTF_web)
++ [NOSEC](https://nosec.org/home/index)
++ [91ri](http://www.91ri.org/)
 
 # Online-Tools
 + [XSS'OR](http://xssor.io/)
@@ -91,3 +94,19 @@ Record some common Web security sites
 + [匿名Email邮件、匿名电子邮件发送、发送匿名电子邮件](http://tool.chacuo.net/mailsend)
 + [国外在线短信接收](https://www.pdflibr.com/)
 + [国内在线短信接收](https://www.becmd.com/)
+
+# 文章
++ [通过MySQL LOAD DATA特性来达到任意文件读取](https://xz.aliyun.com/t/3973)
++ [XXE Bypass WAF](https://www.anquanke.com/post/id/170655)
++ [WIKI|未授权访问的tips](https://mp.weixin.qq.com/s/ki0RwGtMqi8dhsdJ-qq8Kg)
++ [Windows下三种mysql提权剖析](https://xz.aliyun.com/t/2719)
++ [PDO场景下的SQL注入探究](https://xz.aliyun.com/t/3950)
++ [被动信息收集（上）](https://mp.weixin.qq.com/s?__biz=MzUyMzQzOTMwMQ==&mid=2247485824&idx=1&sn=8e1b6b73fde8117410c2ff6e10531a53&chksm=fa3dd42acd4a5d3cfb83795dcf74afe5c7b66ca588976c9048fc1d9ed320271a15d7cefc595e&mpshare=1&scene=23&srcid=1026WJ7g8j0JCi5kvVPZ9Ahz#rd)
++ [被动信息收集（下）](https://mp.weixin.qq.com/s?__biz=MzUyMzQzOTMwMQ==&mid=2247485845&idx=1&sn=a8cbda7f3e0b1e52a594dbfb924e5f29&chksm=fa3dd43fcd4a5d290f6816a9df0854e0c95f4e678b67c84e35ccfca09a8636d92aaff2ecfef3&mpshare=1&scene=23&srcid=1026QbUKhXA2SKFQB5g0LeYP#rd)
++ [HTTP安全标头及其工作原理（上）](https://mp.weixin.qq.com/s/wUij83cbV7cDuxpu_6EEbg)
++ [系统安全之SSH入侵的检测与响应](https://mp.weixin.qq.com/s/e0FLyOuK1RIQykEiAvAG9g)
++ [如何保护Linux服务器](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server)
++ [深入理解PHP7之zval](https://github.com/laruence/php7-internal/blob/master/zval.md)
++ [PHP 最优秀资源的整理汇集](https://github.com/shockerli/php-awesome)
++ [PHP底层内核源码分析和扩展开发](https://github.com/huqinlou0123/php-internals-extended-development-course)
++ [Docker中文文档](https://yeasy.gitbooks.io/docker_practice/compose/commands.html)

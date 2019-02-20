@@ -24,6 +24,8 @@ Record some common Web security sites
 + [Tuisec安全热点](https://paper.tuisec.win/)
 + [渗透师导航](https://www.shentoushi.top/)
 + [XssAv Safe 网址导航](https://www.xssav.com/)
++ [NOSEC](https://nosec.org/home/index)
++ [91ri](http://www.91ri.org/)
 
 # CTF
 + [CTF Time](https://ctftime.org/)
@@ -38,8 +40,6 @@ Record some common Web security sites
 + [solveme](http://solveme.peng.kr/)
 + [ctfhub](https://github.com/ByPupil/ctfhub/tree/master/php_characteristics)
 + [CTF_WEB](https://github.com/wonderkun/CTF_web)
-+ [NOSEC](https://nosec.org/home/index)
-+ [91ri](http://www.91ri.org/)
 
 # Online-Tools
 + [XSS'OR](http://xssor.io/)
@@ -110,3 +110,5 @@ Record some common Web security sites
 + [PHP 最优秀资源的整理汇集](https://github.com/shockerli/php-awesome)
 + [PHP底层内核源码分析和扩展开发](https://github.com/huqinlou0123/php-internals-extended-development-course)
 + [Docker中文文档](https://yeasy.gitbooks.io/docker_practice/compose/commands.html)
++ [我的从零开始 Web 前端自学之路](https://paper.tuisec.win/detail/7171cff0fc63582)
++ [译 NAT：网络地址转换](https://paper.tuisec.win/detail/6af63a65ccc5e8a)

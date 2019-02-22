@@ -1,5 +1,5 @@
 # [Web-Security-Note](https://github.com/Smi1e521/Web-Security-Note)
-同步更新于：[https://www.smi1e.top/web-security-note/](https://www.smi1e.top/web-security-note/)
+
 Record some common Web security sites
 
 # 目录：
@@ -112,3 +112,11 @@ Record some common Web security sites
 + [Docker中文文档](https://yeasy.gitbooks.io/docker_practice/compose/commands.html)
 + [我的从零开始 Web 前端自学之路](https://paper.tuisec.win/detail/7171cff0fc63582)
 + [译 NAT：网络地址转换](https://paper.tuisec.win/detail/6af63a65ccc5e8a)
++ [分布式架构的前世今生](https://paper.tuisec.win/detail/80a9a0901637b50)
++ [WAF攻防研究之四个层次Bypass WAF](https://xz.aliyun.com/t/15)
++ [Web应用程序防火墙（WAF）绕过技术(一)](https://medium.com/secjuice/waf-evasion-techniques-718026d693d8)
++ [Web应用程序防火墙（WAF）绕过技术(二)](https://medium.com/secjuice/web-application-firewall-waf-evasion-techniques-2-125995f3e7b0)
++ [Web应用程序防火墙（WAF）绕过技术(三)](https://www.secjuice.com/web-application-firewall-waf-evasion/)
++ [Web应用程序防火墙（WAF）绕过技术(四)](https://www.secjuice.com/php-rce-bypass-filters-sanitization-waf/)
++ [各漏洞Payload合集](https://github.com/swisskyrepo/PayloadsAllTheThings)
++ [K8工具集合](http://www.cnblogs.com/k8gege/)

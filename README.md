@@ -60,6 +60,8 @@ Record some common Web security sites
 # 信息搜集
 + [被动信息收集（上）](https://mp.weixin.qq.com/s?__biz=MzUyMzQzOTMwMQ==&mid=2247485824&idx=1&sn=8e1b6b73fde8117410c2ff6e10531a53&chksm=fa3dd42acd4a5d3cfb83795dcf74afe5c7b66ca588976c9048fc1d9ed320271a15d7cefc595e&mpshare=1&scene=23&srcid=1026WJ7g8j0JCi5kvVPZ9Ahz#rd)
 + [被动信息收集（下）](https://mp.weixin.qq.com/s?__biz=MzUyMzQzOTMwMQ==&mid=2247485845&idx=1&sn=a8cbda7f3e0b1e52a594dbfb924e5f29&chksm=fa3dd43fcd4a5d290f6816a9df0854e0c95f4e678b67c84e35ccfca09a8636d92aaff2ecfef3&mpshare=1&scene=23&srcid=1026QbUKhXA2SKFQB5g0LeYP#rd)
++ [渗透测试标准-情报收集（上）](https://mp.weixin.qq.com/s?__biz=MzUyNTk1NDQ3Ng==&mid=2247484029&idx=1&sn=64fe6b9d7e50b044735a8e56131ed363&chksm=fa177ebecd60f7a808e9fddf7227d67e33904f09563e251694a92b693ca8b00c17674b9cf1a8&mpshare=1&scene=23&srcid=%23rd)
++ [渗透测试标准-情报收集（中）](https://mp.weixin.qq.com/s?__biz=MzUyNTk1NDQ3Ng==&mid=2247484034&idx=1&sn=575e356a6fccb22e4cc7c3d612d71879&chksm=fa177e41cd60f757a3ac88f2e039b9c592e7a311b90b112204f4bd9befe1c8288b24673b6cca&mpshare=1&scene=23&srcid=%23rd)
 + [子域名在线搜索](http://tool.chinaz.com/subdomain)
 + [猪猪侠:whydomain](https://github.com/ring04h/wydomain)
 + [temmo](https://github.com/bit4woo/teemo)
@@ -76,6 +78,8 @@ Record some common Web security sites
 + [BT种子磁力链接搜索脚本](https://github.com/cgpllx/wangpan_and_BT_search)
 + [waf指纹识别](https://github.com/EnableSecurity/wafw00f)
 + [goproxy高性能代理工具](https://github.com/snail007/goproxy/blob/master/README_ZH.md#%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8%E5%BF%85%E7%9C%8B-1)
++ [轻量级渗透测试辅助框架:WebPocket](https://github.com/TuuuNya/WebPocket)
++ [CVE-2018-8120 Windows LPE exploit](https://github.com/unamer/CVE-2018-8120)
 
 # 面经
 + [Pentest_Interview](https://github.com/Leezj9671/Pentest_Interview)
@@ -103,6 +107,14 @@ Record some common Web security sites
 + [收集质量好的文章](https://github.com/tom0li/collection-document)
 + [逻辑漏洞挖掘初步总结篇](https://mp.weixin.qq.com/s/SDmovMd4IhzNmoCLBIzRKA)
 + [绕过 CSP 从而产生 UXSS 漏洞](https://mp.weixin.qq.com/s?__biz=MzI5MDQ2NjExOQ==&mid=2247489458&idx=1&sn=fc6ce20bcfd3406e99209f1fdea75a7f&chksm=ec1e279adb69ae8c497ecf0634a241673158c5a46a2388905514e15093aca2a4793f249365ad&mpshare=1&scene=23&srcid=%23rd)
++ [widows系统文件命名规则的特殊利用](https://mp.weixin.qq.com/s/On4yLlCHK20LBzAEEd5h_Q)
++ [IIS短文件名泄露漏洞](https://paper.tuisec.win/detail/70b173f0ab9a4fe)
++ [XSS Payloads](http://www.xss-payloads.com/index.html)
++ [cors安全部署最佳实践](https://www.jianjunchen.com/post/cors%E5%AE%89%E5%85%A8%E9%83%A8%E7%BD%B2%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/)
++ [SSRF绕过姿势汇总](https://github.com/cujanovic/SSRF-Testing)
++ [session，cookie认证会话中的安全问题](https://xz.aliyun.com/t/4265)
++ [红队后渗透测试中的文件传输技巧](https://paper.seebug.org/834/)
++ [PHP7和PHP5在安全上的区别](https://www.freebuf.com/articles/web/197013.html)
 
 # 内网渗透
 + [三层网络靶场搭建&MSF内网渗透](https://mp.weixin.qq.com/s?__biz=MzI5MDU1NDk2MA==&mid=2247485799&idx=1&sn=94febf9e32834ce3284aae4c08ab715c&chksm=ec1f5c58db68d54e2cc82295234298e66c8b516a7f4f35be0f3c3bf4bc13ea7b8d995d6f6337&mpshare=1&scene=23&srcid=%23rd)
@@ -131,3 +143,6 @@ Record some common Web security sites
 + [译 NAT：网络地址转换](https://paper.tuisec.win/detail/6af63a65ccc5e8a)
 + [Git 命令应急手册](https://zhuanlan.zhihu.com/p/58140227?utm_source=weibo&utm_medium=social&utm_content=snapshot&utm_oi=1062672075189317632)
 + [【协议森林】技术面试，“三次握手，四次挥手”背后那些事](https://mp.weixin.qq.com/s/rSfR0zCRmYXZIiLU-XgzSA)
++ [138 条 Vim 命令、操作、快捷键全集](https://mp.weixin.qq.com/s?__biz=MzA3OTgyMDcwNg==&mid=2650636595&idx=1&sn=9710416369e491633e12d7415bb5e5f6&chksm=87a483feb0d30ae86054888b0bbc1a8a39e6b7acaefe43c6e1567ba2af921f275b14f19869a9&mpshare=1&scene=23&srcid=%23rd)
++ [浅析反向代理](https://mp.weixin.qq.com/s?__biz=MzIxMjEwNTc4NA==&mid=2652988836&idx=1&sn=c6d3a70ad0eda48099894ec0ad31f3c8&chksm=8c9eeaf3bbe963e501c9562fccd5360fd93d4e555756551159c959e8271f9ac2b44c282c5b8c&mpshare=1&scene=23&srcid=%23rd)
++ [Nginx 学习笔记](https://skyao.gitbooks.io/learning-nginx/)

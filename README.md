@@ -80,11 +80,14 @@ Record some common Web security sites
 + [goproxy高性能代理工具](https://github.com/snail007/goproxy/blob/master/README_ZH.md#%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8%E5%BF%85%E7%9C%8B-1)
 + [轻量级渗透测试辅助框架:WebPocket](https://github.com/TuuuNya/WebPocket)
 + [CVE-2018-8120 Windows LPE exploit](https://github.com/unamer/CVE-2018-8120)
++ [Github信息搜集工具](https://github.com/repoog/GitPrey)
++ [v2ray mac科学上网客户端](https://github.com/yanue/V2rayU)
 
 # 面经
 + [Pentest_Interview](https://github.com/Leezj9671/Pentest_Interview)
 + [信息安全实习和校招的面经、真题和资料](https://github.com/SecYouth/sec-jobs)
 + [一套实用的渗透测试岗位面试题](https://mp.weixin.qq.com/s?__biz=MzIxMjEwNTc4NA==&mid=2652988672&idx=1&sn=96a3639c33f9506709c23f274a71b2b6&chksm=8c9eea57bbe9634179aff1eaad8d7257532b5abb52fb5c3b5bfb0fb24725065ed517ca14d821&mpshare=1&scene=23&srcid=%23rd)
++ [大型公司安全技术岗位面试杂谈](https://mp.weixin.qq.com/s?__biz=MzI5MDQ2NjExOQ==&mid=2247489580&idx=1&sn=dc04f15e96becf922b9f66beb4562dad&chksm=ec1e2804db69a112e056b4c70ac0ac72a0d9f77b269532afe05a534b4e34691a66fe273c31bd&mpshare=1&scene=23&srcid=%23rd)
 
 # BypassWAF
 + [WAF攻防研究之四个层次Bypass WAF](https://xz.aliyun.com/t/15)
@@ -115,6 +118,10 @@ Record some common Web security sites
 + [session，cookie认证会话中的安全问题](https://xz.aliyun.com/t/4265)
 + [红队后渗透测试中的文件传输技巧](https://paper.seebug.org/834/)
 + [PHP7和PHP5在安全上的区别](https://www.freebuf.com/articles/web/197013.html)
++ [Read MySQL Client's File](https://lightless.me/archives/read-mysql-client-file.html)
++ [Bypass XSS Detection WAF](https://medium.com/@th3law/fun-bypass-xss-detection-waf-cabd431e030e)
++ [SRC漏洞挖掘经验+技巧篇](https://mp.weixin.qq.com/s?__biz=MzI5MDU1NDk2MA==&mid=2247485949&idx=1&sn=3f08c681660acecc0bbe996619df66ed&chksm=ec1f5cc2db68d5d4782eec77fa36ad329815f0b70ff34c3c0a893e3b107d2c262e8b37e85d2a&mpshare=1&scene=23&srcid=#rd)
++ [NAVEX->Precise and Scalable Exploit Generation for Dynamic Web Applications](http://zeroyu.xyz/2019/03/11/NAVEX-Precise-and-Scalable-Exploit-Generation-for-Dynamic-Web-Applications/)
 
 # 内网渗透
 + [三层网络靶场搭建&MSF内网渗透](https://mp.weixin.qq.com/s?__biz=MzI5MDU1NDk2MA==&mid=2247485799&idx=1&sn=94febf9e32834ce3284aae4c08ab715c&chksm=ec1f5c58db68d54e2cc82295234298e66c8b516a7f4f35be0f3c3bf4bc13ea7b8d995d6f6337&mpshare=1&scene=23&srcid=%23rd)
@@ -135,6 +142,8 @@ Record some common Web security sites
 + [我的从零开始 Web 前端自学之路](https://paper.tuisec.win/detail/7171cff0fc63582)
 + [九种跨域方式实现原理](https://mp.weixin.qq.com/s?__biz=MzA3NTUzNjk1OA==&mid=2651562096&idx=2&sn=e13a8cd585f09ccc4acf90d4863636a5&chksm=84900f21b3e78637b81795f600e325cba6dcf5f97cd7c194584b751c0775067b2ee3f099337b&mpshare=1&scene=23&srcid=%23rd)
 + [优质前端博客](https://github.com/ljianshu/Blog)
++ [CGI、FastCGI和PHP-FPM关系图解](https://www.awaimai.com/371.html)
++ [uWSGI、WSGI和uwsgi](https://www.cnblogs.com/wspblog/p/8575101.html)
 
 # 运维
 + [Docker中文文档](https://yeasy.gitbooks.io/docker_practice/compose/commands.html)

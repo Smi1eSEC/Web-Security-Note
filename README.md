@@ -11,8 +11,9 @@ Record some common Web security sites
 - [信息搜集](#%E4%BF%A1%E6%81%AF%E6%90%9C%E9%9B%86)
 - [工具](#%E5%B7%A5%E5%85%B7)
 - [面经](#%E9%9D%A2%E7%BB%8F)
-- [WEB安全](#WEB%E5%AE%89%E5%85%A8)
 - [BypassWAF](#BypassWAF)
+- [WEB安全](#WEB%E5%AE%89%E5%85%A8)
+- [漏洞挖掘](#%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98)
 - [内网渗透](#%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F)
 - [开发](#%E5%BC%80%E5%8F%91)
 - [运维](#%E8%BF%90%E7%BB%B4)
@@ -108,7 +109,6 @@ Record some common Web security sites
 + [各漏洞Payload合集](https://github.com/swisskyrepo/PayloadsAllTheThings)
 + [端口渗透总结](http://docs.ioin.in/writeup/blog.heysec.org/_archives_577/index.html)
 + [收集质量好的文章](https://github.com/tom0li/collection-document)
-+ [逻辑漏洞挖掘初步总结篇](https://mp.weixin.qq.com/s/SDmovMd4IhzNmoCLBIzRKA)
 + [绕过 CSP 从而产生 UXSS 漏洞](https://mp.weixin.qq.com/s?__biz=MzI5MDQ2NjExOQ==&mid=2247489458&idx=1&sn=fc6ce20bcfd3406e99209f1fdea75a7f&chksm=ec1e279adb69ae8c497ecf0634a241673158c5a46a2388905514e15093aca2a4793f249365ad&mpshare=1&scene=23&srcid=%23rd)
 + [widows系统文件命名规则的特殊利用](https://mp.weixin.qq.com/s/On4yLlCHK20LBzAEEd5h_Q)
 + [IIS短文件名泄露漏洞](https://paper.tuisec.win/detail/70b173f0ab9a4fe)
@@ -120,8 +120,13 @@ Record some common Web security sites
 + [PHP7和PHP5在安全上的区别](https://www.freebuf.com/articles/web/197013.html)
 + [Read MySQL Client's File](https://lightless.me/archives/read-mysql-client-file.html)
 + [Bypass XSS Detection WAF](https://medium.com/@th3law/fun-bypass-xss-detection-waf-cabd431e030e)
-+ [SRC漏洞挖掘经验+技巧篇](https://mp.weixin.qq.com/s?__biz=MzI5MDU1NDk2MA==&mid=2247485949&idx=1&sn=3f08c681660acecc0bbe996619df66ed&chksm=ec1f5cc2db68d5d4782eec77fa36ad329815f0b70ff34c3c0a893e3b107d2c262e8b37e85d2a&mpshare=1&scene=23&srcid=#rd)
 + [NAVEX->Precise and Scalable Exploit Generation for Dynamic Web Applications](http://zeroyu.xyz/2019/03/11/NAVEX-Precise-and-Scalable-Exploit-Generation-for-Dynamic-Web-Applications/)
++ [利用SVG图片和SSRF收集服务器内部信息](https://nosec.org/home/detail/2305.html)
++ [SSRF 从入门到批量找漏洞](https://mp.weixin.qq.com/s?srcid=&scene=23&mid=2247489585&sn=fcef498cdd1a348e9f02b5861d59b15a&idx=1&__biz=MzI5MDQ2NjExOQ%253D%253D&chksm=ec1e2819db69a10f71e8bd5b342628381c2537549e59f3b1690527e465e417b6bc1be865ea9d&mpshare=1%23rd)
+
+# 漏洞挖掘
++ [逻辑漏洞挖掘初步总结篇](https://mp.weixin.qq.com/s/SDmovMd4IhzNmoCLBIzRKA)
++ [SRC漏洞挖掘经验+技巧篇](https://mp.weixin.qq.com/s?__biz=MzI5MDU1NDk2MA==&mid=2247485949&idx=1&sn=3f08c681660acecc0bbe996619df66ed&chksm=ec1f5cc2db68d5d4782eec77fa36ad329815f0b70ff34c3c0a893e3b107d2c262e8b37e85d2a&mpshare=1&scene=23&srcid=#rd)
 
 # 内网渗透
 + [三层网络靶场搭建&MSF内网渗透](https://mp.weixin.qq.com/s?__biz=MzI5MDU1NDk2MA==&mid=2247485799&idx=1&sn=94febf9e32834ce3284aae4c08ab715c&chksm=ec1f5c58db68d54e2cc82295234298e66c8b516a7f4f35be0f3c3bf4bc13ea7b8d995d6f6337&mpshare=1&scene=23&srcid=%23rd)
@@ -144,6 +149,8 @@ Record some common Web security sites
 + [优质前端博客](https://github.com/ljianshu/Blog)
 + [CGI、FastCGI和PHP-FPM关系图解](https://www.awaimai.com/371.html)
 + [uWSGI、WSGI和uwsgi](https://www.cnblogs.com/wspblog/p/8575101.html)
++ [PHP7新特性一览](http://oopsguy.com/2016/10/22/php7-new-features/)
++ [系统的讲解 - PHP 缓存技术](https://mp.weixin.qq.com/s/COGivblI9Gh2xeoXhbyejA)
 
 # 运维
 + [Docker中文文档](https://yeasy.gitbooks.io/docker_practice/compose/commands.html)
@@ -155,3 +162,4 @@ Record some common Web security sites
 + [138 条 Vim 命令、操作、快捷键全集](https://mp.weixin.qq.com/s?__biz=MzA3OTgyMDcwNg==&mid=2650636595&idx=1&sn=9710416369e491633e12d7415bb5e5f6&chksm=87a483feb0d30ae86054888b0bbc1a8a39e6b7acaefe43c6e1567ba2af921f275b14f19869a9&mpshare=1&scene=23&srcid=%23rd)
 + [浅析反向代理](https://mp.weixin.qq.com/s?__biz=MzIxMjEwNTc4NA==&mid=2652988836&idx=1&sn=c6d3a70ad0eda48099894ec0ad31f3c8&chksm=8c9eeaf3bbe963e501c9562fccd5360fd93d4e555756551159c959e8271f9ac2b44c282c5b8c&mpshare=1&scene=23&srcid=%23rd)
 + [Nginx 学习笔记](https://skyao.gitbooks.io/learning-nginx/)
++ [Linux中find命令用法全汇总](https://mp.weixin.qq.com/s?__biz=MzA3OTgyMDcwNg==&mid=2650636660&idx=1&sn=aaa3cc94b7e1bf6ec7abbaa286c3246d&chksm=87a483b9b0d30aafa4beed2822e70a4fe4bef70a431e5d53533220a1714b6928fb301dcb25fa&mpshare=1&scene=23&srcid=%23rd)

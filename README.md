@@ -68,21 +68,25 @@ Record some common Web security sites
 + [temmo](https://github.com/bit4woo/teemo)
 + [快速提取C段:cscan](https://github.com/lufeirider/cscan)
 + [Async DNS Brute](https://github.com/blark/aiodnsbrute/)
++ [【渗透神器系列】搜索引擎](https://thief.one/2017/05/19/1/)
 
 # 工具
++ [Scanners-Box](https://github.com/We5ter/Scanners-Box/blob/master/README_CN.md)
 + [waf自动爆破(绕过)工具](https://github.com/3xp10it/bypass_waf)
 + [K8工具(内网渗透/提权工具/远程溢出/漏洞利用/Exploit/APT/0day/Shellcode/Payload/priviledge/OverFlow/WebShell/PenTest)](https://github.com/k8gege/K8tools)
 + [k8工具使用教程](https://mp.weixin.qq.com/s/Io7YvMLEk_wcmTji36PTZw)
 + [内网渗透必备工具](https://github.com/yuxiaokui/Intranet-Penetration)
 + [XSStrike](https://github.com/s0md3v/XSStrike)
 + [自动扫描内网常见sql、no-sql数据库脚本:DBScanner](https://github.com/se55i0n/DBScanner)
-+ [BT种子磁力链接搜索脚本](https://github.com/cgpllx/wangpan_and_BT_search)
 + [waf指纹识别](https://github.com/EnableSecurity/wafw00f)
 + [goproxy高性能代理工具](https://github.com/snail007/goproxy/blob/master/README_ZH.md#%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8%E5%BF%85%E7%9C%8B-1)
 + [轻量级渗透测试辅助框架:WebPocket](https://github.com/TuuuNya/WebPocket)
 + [CVE-2018-8120 Windows LPE exploit](https://github.com/unamer/CVE-2018-8120)
 + [Github信息搜集工具](https://github.com/repoog/GitPrey)
 + [v2ray mac科学上网客户端](https://github.com/yanue/V2rayU)
++ [hack-requests](https://github.com/boy-hack/hack-requests)
++ [Github内容高级挖掘工具](https://github.com/UnkL4b/GitMiner)
++ [【渗透神器系列】Metasploit](https://thief.one/2017/08/01/1/)
 
 # 面经
 + [Pentest_Interview](https://github.com/Leezj9671/Pentest_Interview)
@@ -98,6 +102,9 @@ Record some common Web security sites
 + [Web应用程序防火墙（WAF）绕过技术(四)](https://www.secjuice.com/php-rce-bypass-filters-sanitization-waf/)
 + [看我如何通过DNS历史记录绕过防火墙](https://mp.weixin.qq.com/s?srcid=02225HSVRBNh4QPJeorGny8D&scene=23&mid=2247487603&sn=278633c3b4d712e1839e6b8c6fa5e2c6&idx=1&__biz=MzIxNjQ0MTEwMg%253D%253D&chksm=97885812a0ffd1046f6b10aaa79de9471e6ad4b62e3b4ef659cef38f705a197c399b9b37b9a6&mpshare=1%23rd)
 + [识别 WAF 的方法](https://mp.weixin.qq.com/s?__biz=MzI5MDQ2NjExOQ==&mid=2247489463&idx=1&sn=568e1e4e1cac56dded7c3ac6d310a72d&chksm=ec1e279fdb69ae89fa171b66cc272622e254f282c80aef2a141c26879166a9b0fb2efd7e2ac9&mpshare=1&scene=23&srcid=%23rd)
++ [技术讨论 | 在HTTP协议层面绕过WAF](https://www.freebuf.com/news/193659.html)
++ [利用分块传输吊打所有WAF](https://www.anquanke.com/post/id/169738)
+
 
 # WEB安全
 + [通过MySQL LOAD DATA特性来达到任意文件读取](https://xz.aliyun.com/t/3973)
@@ -113,6 +120,7 @@ Record some common Web security sites
 + [widows系统文件命名规则的特殊利用](https://mp.weixin.qq.com/s/On4yLlCHK20LBzAEEd5h_Q)
 + [IIS短文件名泄露漏洞](https://paper.tuisec.win/detail/70b173f0ab9a4fe)
 + [XSS Payloads](http://www.xss-payloads.com/index.html)
++ [XSS payload](https://github.com/s0md3v/AwesomeXSS)
 + [cors安全部署最佳实践](https://www.jianjunchen.com/post/cors%E5%AE%89%E5%85%A8%E9%83%A8%E7%BD%B2%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/)
 + [SSRF绕过姿势汇总](https://github.com/cujanovic/SSRF-Testing)
 + [session，cookie认证会话中的安全问题](https://xz.aliyun.com/t/4265)
@@ -123,10 +131,17 @@ Record some common Web security sites
 + [NAVEX->Precise and Scalable Exploit Generation for Dynamic Web Applications](http://zeroyu.xyz/2019/03/11/NAVEX-Precise-and-Scalable-Exploit-Generation-for-Dynamic-Web-Applications/)
 + [利用SVG图片和SSRF收集服务器内部信息](https://nosec.org/home/detail/2305.html)
 + [SSRF 从入门到批量找漏洞](https://mp.weixin.qq.com/s?srcid=&scene=23&mid=2247489585&sn=fcef498cdd1a348e9f02b5861d59b15a&idx=1&__biz=MzI5MDQ2NjExOQ%253D%253D&chksm=ec1e2819db69a10f71e8bd5b342628381c2537549e59f3b1690527e465e417b6bc1be865ea9d&mpshare=1%23rd)
++ [Orange: A Wormable XSS on HackMD!](http://blog.orange.tw/2019/03/a-wormable-xss-on-hackmd.html)
++ [实战Web缓存投毒（上）](https://www.anquanke.com/post/id/156356)
++ [实战Web缓存投毒（下）](https://www.anquanke.com/post/id/156551)
++ [Pentest-and-Development-Tips](https://github.com/3gstudent/Pentest-and-Development-Tips)
++ [JSON Web Token (JWT) 攻击技巧](https://xz.aliyun.com/t/2338)
++ [为什么参数化查询可以防止SQL注入?](https://www.waitalone.cn/sql-preparestatement.html)
 
 # 漏洞挖掘
 + [逻辑漏洞挖掘初步总结篇](https://mp.weixin.qq.com/s/SDmovMd4IhzNmoCLBIzRKA)
 + [SRC漏洞挖掘经验+技巧篇](https://mp.weixin.qq.com/s?__biz=MzI5MDU1NDk2MA==&mid=2247485949&idx=1&sn=3f08c681660acecc0bbe996619df66ed&chksm=ec1f5cc2db68d5d4782eec77fa36ad329815f0b70ff34c3c0a893e3b107d2c262e8b37e85d2a&mpshare=1&scene=23&srcid=#rd)
++ [一个基础渗透测试思路](https://mp.weixin.qq.com/s?__biz=MjM5MDkwNjA2Nw==&mid=2650374502&idx=1&sn=f5f0746aea5dca30acff88b5b3bc2bcb&chksm=beb082da89c70bcccd74f7c12138ec839cc835ecf5194133e998918258430fd9b665a4eeb31a&mpshare=1&scene=23&srcid=%23rd)
 
 # 内网渗透
 + [三层网络靶场搭建&MSF内网渗透](https://mp.weixin.qq.com/s?__biz=MzI5MDU1NDk2MA==&mid=2247485799&idx=1&sn=94febf9e32834ce3284aae4c08ab715c&chksm=ec1f5c58db68d54e2cc82295234298e66c8b516a7f4f35be0f3c3bf4bc13ea7b8d995d6f6337&mpshare=1&scene=23&srcid=%23rd)
@@ -163,3 +178,4 @@ Record some common Web security sites
 + [浅析反向代理](https://mp.weixin.qq.com/s?__biz=MzIxMjEwNTc4NA==&mid=2652988836&idx=1&sn=c6d3a70ad0eda48099894ec0ad31f3c8&chksm=8c9eeaf3bbe963e501c9562fccd5360fd93d4e555756551159c959e8271f9ac2b44c282c5b8c&mpshare=1&scene=23&srcid=%23rd)
 + [Nginx 学习笔记](https://skyao.gitbooks.io/learning-nginx/)
 + [Linux中find命令用法全汇总](https://mp.weixin.qq.com/s?__biz=MzA3OTgyMDcwNg==&mid=2650636660&idx=1&sn=aaa3cc94b7e1bf6ec7abbaa286c3246d&chksm=87a483b9b0d30aafa4beed2822e70a4fe4bef70a431e5d53533220a1714b6928fb301dcb25fa&mpshare=1&scene=23&srcid=%23rd)
++ [一个网络安全基础知识的教程](http://www.buchedan.cn/)

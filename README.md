@@ -90,6 +90,8 @@ Record some common Web security sites
 + [Metasploit5命令快速查询表](https://mp.weixin.qq.com/s/X84V-OGNzfXTWoXly3xDhA)
 + [CMS漏洞测试用例集合](https://github.com/SecWiki/CMS-Hunter)
 + [proxypool](https://github.com/henson/proxypool)
++ [sublert子域名监控](https://xz.aliyun.com/t/4532)
++ [kunpeng](https://github.com/opensec-cn/kunpeng)
 
 # 面经
 + [Pentest_Interview](https://github.com/Leezj9671/Pentest_Interview)
@@ -97,6 +99,7 @@ Record some common Web security sites
 + [一套实用的渗透测试岗位面试题](https://mp.weixin.qq.com/s?__biz=MzIxMjEwNTc4NA==&mid=2652988672&idx=1&sn=96a3639c33f9506709c23f274a71b2b6&chksm=8c9eea57bbe9634179aff1eaad8d7257532b5abb52fb5c3b5bfb0fb24725065ed517ca14d821&mpshare=1&scene=23&srcid=%23rd)
 + [大型公司安全技术岗位面试杂谈](https://mp.weixin.qq.com/s?__biz=MzI5MDQ2NjExOQ==&mid=2247489580&idx=1&sn=dc04f15e96becf922b9f66beb4562dad&chksm=ec1e2804db69a112e056b4c70ac0ac72a0d9f77b269532afe05a534b4e34691a66fe273c31bd&mpshare=1&scene=23&srcid=%23rd)
 + [面试「计算机操作系统」知识点大集合！](https://mp.weixin.qq.com/s?__biz=MzI4MDEwNzAzNg==&mid=2649445419&idx=1&sn=ea3cb5add4b48a3d86294254aa032170&chksm=f3a27558c4d5fc4e6fbf1a605ffe953f60bb4efffc310708f1dee71ad43981c6b0cd78ba8363&mpshare=1&scene=23&srcid=%23rd)
++ [网络信息安全从业者面试指南](https://github.com/FeeiCN/SecurityInterviewQuestions)
 
 # BypassWAF
 + [WAF攻防研究之四个层次Bypass WAF](https://xz.aliyun.com/t/15)
@@ -118,6 +121,7 @@ Record some common Web security sites
 + [XSS Payloads](http://www.xss-payloads.com/index.html)
 + [XSS payload](https://github.com/s0md3v/AwesomeXSS)
 + [Orange: A Wormable XSS on HackMD!](http://blog.orange.tw/2019/03/a-wormable-xss-on-hackmd.html)
++ [测试WAF来学习XSS姿势](https://www.anquanke.com/post/id/176185)
 
 ## SSRF
 + [SSRF 从入门到批量找漏洞](https://mp.weixin.qq.com/s?srcid=&scene=23&mid=2247489585&sn=fcef498cdd1a348e9f02b5861d59b15a&idx=1&__biz=MzI5MDQ2NjExOQ%253D%253D&chksm=ec1e2819db69a10f71e8bd5b342628381c2537549e59f3b1690527e465e417b6bc1be865ea9d&mpshare=1%23rd)
@@ -130,6 +134,10 @@ Record some common Web security sites
 + [通过MySQL LOAD DATA特性来达到任意文件读取](https://xz.aliyun.com/t/3973)
 
 ## XXE
++ [一篇文章带你深入理解漏洞之 XXE 漏洞](https://xz.aliyun.com/t/3357)
+
+## CSRF
++ [CSRF 原理与防御案例分析](https://mp.weixin.qq.com/s?__biz=MzI5MDQ2NjExOQ==&mid=2247489737&idx=1&sn=db25ccea70cbf6d80126f637109226b4&chksm=ec1e28e1db69a1f7c3f889dc65deb8aa7b6a89d51b30194147388f21e8111ba2cad93cbafb6e&mpshare=1&scene=23&srcid=%23rd)
 
 ## 同源策略
 + [跨域方式及其产生的安全问题](https://xz.aliyun.com/t/4470)
@@ -148,6 +156,8 @@ Record some common Web security sites
 ## 解析漏洞
 + [widows系统文件命名规则的特殊利用](https://mp.weixin.qq.com/s/On4yLlCHK20LBzAEEd5h_Q)
 + [IIS短文件名泄露漏洞](https://paper.tuisec.win/detail/70b173f0ab9a4fe)
++ [深入探究：反向代理的攻击面 （上）](https://xz.aliyun.com/t/4577)
++ [深入探究：反向代理的攻击面 （下）](https://xz.aliyun.com/t/4644)
 
 ## 其他
 + [WIKI|未授权访问的tips](https://mp.weixin.qq.com/s/ki0RwGtMqi8dhsdJ-qq8Kg)
@@ -183,6 +193,7 @@ Record some common Web security sites
 # 开发
 + [HTTP安全标头及其工作原理（上）](https://mp.weixin.qq.com/s/wUij83cbV7cDuxpu_6EEbg)
 + [HTTP安全标头及其工作原理（上）](https://mp.weixin.qq.com/s?__biz=MzI0MDY1MDU4MQ==&mid=2247491279&idx=4&sn=356c26b916025673bd44057a03edf7ea&chksm=e916cef5de6147e3bbf58d4db87575458f44de995c3eb0293d0f3f721d697a84f7ff751fee6a&mpshare=1&scene=23&srcid=#rd)
++ [面试 HTTP 都问了啥？](https://mp.weixin.qq.com/s?__biz=MzA3NTUzNjk1OA==&mid=2651562186&idx=1&sn=7cb0a6f1092e58be1e6e48dc8f0da309&chksm=84900f9bb3e7868dd82263ed0dc311028184595a7e44f70ea861590b1db77a8295b413840e11&mpshare=1&scene=23&srcid=%23rd)
 + [HTTP常见面试题](https://mp.weixin.qq.com/s?__biz=MzA3NTUzNjk1OA==&mid=2651562159&idx=1&sn=50f664e86b3c8b03f4f1ef0e42a648ed&chksm=84900ffeb3e786e81e233daf78fa238fb85ed7745ece76b6da4c42453d3ccdbdef46f6f51af9&mpshare=1&scene=23&srcid=%23rd)
 + [PHP 最优秀资源的整理汇集](https://github.com/shockerli/php-awesome)
 + [PHP底层内核源码分析和扩展开发](https://github.com/huqinlou0123/php-internals-extended-development-course)
@@ -190,11 +201,13 @@ Record some common Web security sites
 + [我的从零开始 Web 前端自学之路](https://paper.tuisec.win/detail/7171cff0fc63582)
 + [九种跨域方式实现原理](https://mp.weixin.qq.com/s?__biz=MzA3NTUzNjk1OA==&mid=2651562096&idx=2&sn=e13a8cd585f09ccc4acf90d4863636a5&chksm=84900f21b3e78637b81795f600e325cba6dcf5f97cd7c194584b751c0775067b2ee3f099337b&mpshare=1&scene=23&srcid=%23rd)
 + [优质前端博客](https://github.com/ljianshu/Blog)
-+ [CGI、FastCGI和PHP-FPM关系图解](https://www.awaimai.com/371.html)
++ [从CGI到FastCGI到PHP-FPM](http://yongxiong.leanote.com/post/%E4%BB%8ECGI%E5%88%B0FastCGI%E5%88%B0PHP-FPM)
 + [uWSGI、WSGI和uwsgi](https://www.cnblogs.com/wspblog/p/8575101.html)
 + [PHP7新特性一览](http://oopsguy.com/2016/10/22/php7-new-features/)
 + [系统的讲解 - PHP 缓存技术](https://mp.weixin.qq.com/s/COGivblI9Gh2xeoXhbyejA)
 + [如何阅读一份源代码？](https://www.codedump.info/post/20190324-how-to-read-code/)
++ [技术分享周刊，每周五发布](https://github.com/ruanyf/weekly)
++ [Linux下gcc生成和使用静态库和动态库详解](http://www.eonew.cn/article_content/4.html)
 
 # 运维
 + [Docker中文文档](https://yeasy.gitbooks.io/docker_practice/compose/commands.html)

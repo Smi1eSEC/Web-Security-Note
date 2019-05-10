@@ -64,11 +64,11 @@ Record some common Web security sites
 + [渗透测试标准-情报收集（上）](https://mp.weixin.qq.com/s?__biz=MzUyNTk1NDQ3Ng==&mid=2247484029&idx=1&sn=64fe6b9d7e50b044735a8e56131ed363&chksm=fa177ebecd60f7a808e9fddf7227d67e33904f09563e251694a92b693ca8b00c17674b9cf1a8&mpshare=1&scene=23&srcid=%23rd)
 + [渗透测试标准-情报收集（中）](https://mp.weixin.qq.com/s?__biz=MzUyNTk1NDQ3Ng==&mid=2247484034&idx=1&sn=575e356a6fccb22e4cc7c3d612d71879&chksm=fa177e41cd60f757a3ac88f2e039b9c592e7a311b90b112204f4bd9befe1c8288b24673b6cca&mpshare=1&scene=23&srcid=%23rd)
 + [子域名在线搜索](http://tool.chinaz.com/subdomain)
-+ [猪猪侠:whydomain](https://github.com/ring04h/wydomain)
 + [temmo](https://github.com/bit4woo/teemo)
 + [快速提取C段:cscan](https://github.com/lufeirider/cscan)
 + [Async DNS Brute](https://github.com/blark/aiodnsbrute/)
 + [【渗透神器系列】搜索引擎](https://thief.one/2017/05/19/1/)
++ [浅谈信息收集的那些事儿](https://xz.aliyun.com/t/5012#toc-9)
 
 # 工具
 + [Scanners-Box](https://github.com/We5ter/Scanners-Box/blob/master/README_CN.md)
@@ -92,6 +92,8 @@ Record some common Web security sites
 + [proxypool](https://github.com/henson/proxypool)
 + [sublert子域名监控](https://xz.aliyun.com/t/4532)
 + [kunpeng](https://github.com/opensec-cn/kunpeng)
++ [模拟登录一些知名的网站，为了方便爬取需要登录的网站](https://github.com/echohun/fuck-login)
++ [webshell收集项目](https://github.com/tennc/webshell)
 
 # 面经
 + [Pentest_Interview](https://github.com/Leezj9671/Pentest_Interview)
@@ -100,6 +102,7 @@ Record some common Web security sites
 + [大型公司安全技术岗位面试杂谈](https://mp.weixin.qq.com/s?__biz=MzI5MDQ2NjExOQ==&mid=2247489580&idx=1&sn=dc04f15e96becf922b9f66beb4562dad&chksm=ec1e2804db69a112e056b4c70ac0ac72a0d9f77b269532afe05a534b4e34691a66fe273c31bd&mpshare=1&scene=23&srcid=%23rd)
 + [面试「计算机操作系统」知识点大集合！](https://mp.weixin.qq.com/s?__biz=MzI4MDEwNzAzNg==&mid=2649445419&idx=1&sn=ea3cb5add4b48a3d86294254aa032170&chksm=f3a27558c4d5fc4e6fbf1a605ffe953f60bb4efffc310708f1dee71ad43981c6b0cd78ba8363&mpshare=1&scene=23&srcid=%23rd)
 + [网络信息安全从业者面试指南](https://github.com/FeeiCN/SecurityInterviewQuestions)
++ [安全面试经验收集](https://attacker.cc/index.php/archives/24/)
 
 # BypassWAF
 + [WAF攻防研究之四个层次Bypass WAF](https://xz.aliyun.com/t/15)
@@ -113,6 +116,7 @@ Record some common Web security sites
 + [利用分块传输吊打所有WAF](https://www.anquanke.com/post/id/169738)
 + [XXE Bypass WAF](https://www.anquanke.com/post/id/170655)
 + [Bypass XSS Detection WAF](https://medium.com/@th3law/fun-bypass-xss-detection-waf-cabd431e030e)
++ [对过WAF的一些认知](https://www.anquanke.com/post/id/177044)
 
 # WEB安全
 
@@ -132,9 +136,16 @@ Record some common Web security sites
 + [PDO场景下的SQL注入探究](https://xz.aliyun.com/t/3950)
 + [为什么参数化查询可以防止SQL注入?](https://www.waitalone.cn/sql-preparestatement.html)
 + [通过MySQL LOAD DATA特性来达到任意文件读取](https://xz.aliyun.com/t/3973)
++ [浅析白盒审计中的字符编码及SQL注入](https://www.leavesongs.com/PENETRATION/mutibyte-sql-inject.html#1452)
++ [phpMyAdmin后台GetShell实战应用](https://mp.weixin.qq.com/s?srcid=&scene=23&mid=2649086937&sn=9e0971883d628ed71419ad5109500eb5&idx=1&__biz=MzI1MDA4MTgwMw%253D%253D&chksm=f196dcbdc6e155ab5f4fcb60166bc2182b99a93aec898d98cb4ea7df72f285ffa1116632be64&mpshare=1%23rd)
++ [MYSQL_SQL_BYPASS_WIKI](https://github.com/aleenzz/MYSQL_SQL_BYPASS_WIKI?from=groupmessage&isappinstalled=0)
 
 ## XXE
 + [一篇文章带你深入理解漏洞之 XXE 漏洞](https://xz.aliyun.com/t/3357)
+
+## 上传
++ [绕过GD库渲染的WEBSHELL生成器](https://wiki.ioin.in/soft/detail/1q)
++ [Exploiting PHP-GD imagecreatefromjpeg() function](https://github.com/fakhrizulkifli/Defeating-PHP-GD-imagecreatefromjpeg)
 
 ## CSRF
 + [CSRF 原理与防御案例分析](https://mp.weixin.qq.com/s?__biz=MzI5MDQ2NjExOQ==&mid=2247489737&idx=1&sn=db25ccea70cbf6d80126f637109226b4&chksm=ec1e28e1db69a1f7c3f889dc65deb8aa7b6a89d51b30194147388f21e8111ba2cad93cbafb6e&mpshare=1&scene=23&srcid=%23rd)
@@ -143,21 +154,36 @@ Record some common Web security sites
 + [跨域方式及其产生的安全问题](https://xz.aliyun.com/t/4470)
 + [cors安全部署最佳实践](https://www.jianjunchen.com/post/cors%E5%AE%89%E5%85%A8%E9%83%A8%E7%BD%B2%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/)
 
+## 文件包含
++ [php文件包含漏洞](https://chybeta.github.io/2017/10/08/php%E6%96%87%E4%BB%B6%E5%8C%85%E5%90%AB%E6%BC%8F%E6%B4%9E/)
+
 ## 缓存投毒
 + [实战Web缓存投毒（上）](https://www.anquanke.com/post/id/156356)
 + [实战Web缓存投毒（下）](https://www.anquanke.com/post/id/156551)
 
 ## 提权
 + [Windows下三种mysql提权剖析](https://xz.aliyun.com/t/2719)
++ [mysql数据库提权总结](https://uuzdaisuki.com/2018/07/02/mysql%E6%95%B0%E6%8D%AE%E5%BA%93%E6%8F%90%E6%9D%83%E6%80%BB%E7%BB%93/)
 
 ## 代码审计
 + [NAVEX->Precise and Scalable Exploit Generation for Dynamic Web Applications](http://zeroyu.xyz/2019/03/11/NAVEX-Precise-and-Scalable-Exploit-Generation-for-Dynamic-Web-Applications/)
++ [PHP内核层解析反序列化漏洞](https://mp.weixin.qq.com/s/RL8_kDoHcZoED1G_BBxlWw)
++ [如何阅读一份源代码？](https://www.codedump.info/post/20190324-how-to-read-code/)
++ [Audit-Learning](https://github.com/jiangsir404/Audit-Learning)
 
 ## 解析漏洞
 + [widows系统文件命名规则的特殊利用](https://mp.weixin.qq.com/s/On4yLlCHK20LBzAEEd5h_Q)
 + [IIS短文件名泄露漏洞](https://paper.tuisec.win/detail/70b173f0ab9a4fe)
 + [深入探究：反向代理的攻击面 （上）](https://xz.aliyun.com/t/4577)
 + [深入探究：反向代理的攻击面 （下）](https://xz.aliyun.com/t/4644)
+
+## PHP
++ [PHP7和PHP5在安全上的区别](https://www.freebuf.com/articles/web/197013.html)
++ [PHP 7 的几处函数安全小变化](https://www.xmsec.cc/few-security-changes-between-php-7-and-php-5/)
++ [PHP 连接方式介绍以及如何攻击 PHP-FPM](https://mp.weixin.qq.com/s/z2JVc9kUkmRl9bDaEbkTFg)
++ [中间件漏洞合集](https://mp.weixin.qq.com/s?__biz=MjM5MDkwNjA2Nw==&mid=2650374608&idx=1&sn=9dc025a8bbc372c0819a7f99f253ad1b&chksm=beb0826c89c70b7ab18819390d9d21bc1ce21ba6a0ab3bc80198d53f01d73802732a967c4289&mpshare=1&scene=23&srcid=%23rd)
+
+## Python
 
 ## 其他
 + [WIKI|未授权访问的tips](https://mp.weixin.qq.com/s/ki0RwGtMqi8dhsdJ-qq8Kg)
@@ -166,10 +192,12 @@ Record some common Web security sites
 + [收集质量好的文章](https://github.com/tom0li/collection-document)
 + [session，cookie认证会话中的安全问题](https://xz.aliyun.com/t/4265)
 + [红队后渗透测试中的文件传输技巧](https://paper.seebug.org/834/)
-+ [PHP7和PHP5在安全上的区别](https://www.freebuf.com/articles/web/197013.html)
 + [Pentest-and-Development-Tips](https://github.com/3gstudent/Pentest-and-Development-Tips)
 + [JSON Web Token (JWT) 攻击技巧](https://xz.aliyun.com/t/2338)
 + [web安全脑图](https://github.com/SecWiki/sec-chart/tree/master/Web%E5%AE%89%E5%85%A8)
++ [从一道题讲PHP复杂变量](https://xz.aliyun.com/t/4785)
++ [安全漏洞修复建议汇总](https://attacker.cc/index.php/archives/63/)
++ [Redis未授权访问在windows下的利用](https://www.anquanke.com/post/id/170360#h3-3)
 
 # 漏洞挖掘
 + [逻辑漏洞挖掘初步总结篇](https://mp.weixin.qq.com/s/SDmovMd4IhzNmoCLBIzRKA)
@@ -178,6 +206,7 @@ Record some common Web security sites
 + [API渗透测试基础](https://mp.weixin.qq.com/s?__biz=MzI0MDY1MDU4MQ==&mid=2247492079&idx=2&sn=fec50619646b1fd516d31caf06d20ab3&chksm=e91531d5de62b8c3b6fb41f67c2e3ccc95f083d599508791eb32f28620bb5bea7161b7876156&mpshare=1&scene=23&srcid=%23rd)
 + [实战经验丨业务逻辑漏洞探索之活动类漏洞](https://mp.weixin.qq.com/s?__biz=MzUzNTkyODI0OA==&mid=2247492541&idx=1&sn=aa300be8e78819191915b2051e3ee094&chksm=fafcaf6acd8b267c6591e50a4c1533fa475fa4d8b85315940c1a93b8dfc4f3de3fee1c9d587a&mpshare=1&scene=23&srcid=0320JwfnmLScnLpubL8sp0fX%23rd)
 + [xss-payload-list](https://github.com/ismailtasdelen/xss-payload-list)
++ [ios+mac app测试环境搭建](https://xz.aliyun.com/t/4703)
 
 # 内网渗透
 + [三层网络靶场搭建&MSF内网渗透](https://mp.weixin.qq.com/s?__biz=MzI5MDU1NDk2MA==&mid=2247485799&idx=1&sn=94febf9e32834ce3284aae4c08ab715c&chksm=ec1f5c58db68d54e2cc82295234298e66c8b516a7f4f35be0f3c3bf4bc13ea7b8d995d6f6337&mpshare=1&scene=23&srcid=%23rd)
@@ -205,9 +234,9 @@ Record some common Web security sites
 + [uWSGI、WSGI和uwsgi](https://www.cnblogs.com/wspblog/p/8575101.html)
 + [PHP7新特性一览](http://oopsguy.com/2016/10/22/php7-new-features/)
 + [系统的讲解 - PHP 缓存技术](https://mp.weixin.qq.com/s/COGivblI9Gh2xeoXhbyejA)
-+ [如何阅读一份源代码？](https://www.codedump.info/post/20190324-how-to-read-code/)
 + [技术分享周刊，每周五发布](https://github.com/ruanyf/weekly)
 + [Linux下gcc生成和使用静态库和动态库详解](http://www.eonew.cn/article_content/4.html)
++ [前端九部 - 入门者手册2019](https://www.yuque.com/fe9/basic)
 
 # 运维
 + [Docker中文文档](https://yeasy.gitbooks.io/docker_practice/compose/commands.html)
@@ -222,3 +251,6 @@ Record some common Web security sites
 + [Linux中find命令用法全汇总](https://mp.weixin.qq.com/s?__biz=MzA3OTgyMDcwNg==&mid=2650636660&idx=1&sn=aaa3cc94b7e1bf6ec7abbaa286c3246d&chksm=87a483b9b0d30aafa4beed2822e70a4fe4bef70a431e5d53533220a1714b6928fb301dcb25fa&mpshare=1&scene=23&srcid=%23rd)
 + [一个网络安全基础知识的教程](http://www.buchedan.cn/)
 + [分布式架构的前世今生](https://paper.tuisec.win/detail/80a9a0901637b50)
++ [安全运维技巧整理](https://github.com/NB-STAR/Security-Operation)
++ [mysql用户root多密码成因](https://blog.csdn.net/redwand/article/details/78846538?from=groupmessage&isappinstalled=0)
++ [mysql的.frm .MYD .MYI .idb .par文件说明](https://blog.csdn.net/happydecai/article/details/82840631)

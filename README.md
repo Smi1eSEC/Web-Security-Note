@@ -94,6 +94,7 @@ Record some common Web security sites
 + [kunpeng](https://github.com/opensec-cn/kunpeng)
 + [模拟登录一些知名的网站，为了方便爬取需要登录的网站](https://github.com/echohun/fuck-login)
 + [webshell收集项目](https://github.com/tennc/webshell)
++ [打造自己的渗透测试框架 — 溯光](https://bithack.io/forum/232?from=timeline&isappinstalled=0)
 
 # 面经
 + [Pentest_Interview](https://github.com/Leezj9671/Pentest_Interview)
@@ -126,11 +127,14 @@ Record some common Web security sites
 + [XSS payload](https://github.com/s0md3v/AwesomeXSS)
 + [Orange: A Wormable XSS on HackMD!](http://blog.orange.tw/2019/03/a-wormable-xss-on-hackmd.html)
 + [测试WAF来学习XSS姿势](https://www.anquanke.com/post/id/176185)
++ [CSP绕过思路及总结](https://xz.aliyun.com/t/5084)
++ [无需括号与分号的XSS](https://www.anquanke.com/post/id/178610)
 
 ## SSRF
 + [SSRF 从入门到批量找漏洞](https://mp.weixin.qq.com/s?srcid=&scene=23&mid=2247489585&sn=fcef498cdd1a348e9f02b5861d59b15a&idx=1&__biz=MzI5MDQ2NjExOQ%253D%253D&chksm=ec1e2819db69a10f71e8bd5b342628381c2537549e59f3b1690527e465e417b6bc1be865ea9d&mpshare=1%23rd)
 + [利用SVG图片和SSRF收集服务器内部信息](https://nosec.org/home/detail/2305.html)
 + [SSRF绕过姿势汇总](https://github.com/cujanovic/SSRF-Testing)
++ [IPv6 三个访问本地地址的小Tips](https://www.tttang.com/archive/1293/)
 
 ## Sql注入
 + [PDO场景下的SQL注入探究](https://xz.aliyun.com/t/3950)
@@ -146,6 +150,7 @@ Record some common Web security sites
 ## 上传
 + [绕过GD库渲染的WEBSHELL生成器](https://wiki.ioin.in/soft/detail/1q)
 + [Exploiting PHP-GD imagecreatefromjpeg() function](https://github.com/fakhrizulkifli/Defeating-PHP-GD-imagecreatefromjpeg)
++ [构造优质上传漏洞fuzz字典](http://gv7.me/articles/2018/make-upload-vul-fuzz-dic/)
 
 ## CSRF
 + [CSRF 原理与防御案例分析](https://mp.weixin.qq.com/s?__biz=MzI5MDQ2NjExOQ==&mid=2247489737&idx=1&sn=db25ccea70cbf6d80126f637109226b4&chksm=ec1e28e1db69a1f7c3f889dc65deb8aa7b6a89d51b30194147388f21e8111ba2cad93cbafb6e&mpshare=1&scene=23&srcid=%23rd)
@@ -153,6 +158,8 @@ Record some common Web security sites
 ## 同源策略
 + [跨域方式及其产生的安全问题](https://xz.aliyun.com/t/4470)
 + [cors安全部署最佳实践](https://www.jianjunchen.com/post/cors%E5%AE%89%E5%85%A8%E9%83%A8%E7%BD%B2%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/)
++ [再谈同源策略](https://lightless.me/archives/review-SOP.html)
++ [九种跨域方式实现原理](https://mp.weixin.qq.com/s?__biz=MzA3NTUzNjk1OA==&mid=2651562096&idx=2&sn=e13a8cd585f09ccc4acf90d4863636a5&chksm=84900f21b3e78637b81795f600e325cba6dcf5f97cd7c194584b751c0775067b2ee3f099337b&mpshare=1&scene=23&srcid=%23rd)
 
 ## 文件包含
 + [php文件包含漏洞](https://chybeta.github.io/2017/10/08/php%E6%96%87%E4%BB%B6%E5%8C%85%E5%90%AB%E6%BC%8F%E6%B4%9E/)
@@ -176,14 +183,18 @@ Record some common Web security sites
 + [IIS短文件名泄露漏洞](https://paper.tuisec.win/detail/70b173f0ab9a4fe)
 + [深入探究：反向代理的攻击面 （上）](https://xz.aliyun.com/t/4577)
 + [深入探究：反向代理的攻击面 （下）](https://xz.aliyun.com/t/4644)
++ [中间件漏洞合集](https://mp.weixin.qq.com/s?__biz=MjM5MDkwNjA2Nw==&mid=2650374608&idx=1&sn=9dc025a8bbc372c0819a7f99f253ad1b&chksm=beb0826c89c70b7ab18819390d9d21bc1ce21ba6a0ab3bc80198d53f01d73802732a967c4289&mpshare=1&scene=23&srcid=%23rd)
 
 ## PHP
 + [PHP7和PHP5在安全上的区别](https://www.freebuf.com/articles/web/197013.html)
 + [PHP 7 的几处函数安全小变化](https://www.xmsec.cc/few-security-changes-between-php-7-and-php-5/)
 + [PHP 连接方式介绍以及如何攻击 PHP-FPM](https://mp.weixin.qq.com/s/z2JVc9kUkmRl9bDaEbkTFg)
-+ [中间件漏洞合集](https://mp.weixin.qq.com/s?__biz=MjM5MDkwNjA2Nw==&mid=2650374608&idx=1&sn=9dc025a8bbc372c0819a7f99f253ad1b&chksm=beb0826c89c70b7ab18819390d9d21bc1ce21ba6a0ab3bc80198d53f01d73802732a967c4289&mpshare=1&scene=23&srcid=%23rd)
+
 
 ## Python
+
+## 指纹识别技术
+[Web指纹识别技术研究与优化实现](https://mp.weixin.qq.com/s/v92dLQSgLXv7JVkc8AUyvA)
 
 ## 其他
 + [WIKI|未授权访问的tips](https://mp.weixin.qq.com/s/ki0RwGtMqi8dhsdJ-qq8Kg)
@@ -198,6 +209,7 @@ Record some common Web security sites
 + [从一道题讲PHP复杂变量](https://xz.aliyun.com/t/4785)
 + [安全漏洞修复建议汇总](https://attacker.cc/index.php/archives/63/)
 + [Redis未授权访问在windows下的利用](https://www.anquanke.com/post/id/170360#h3-3)
++ [webshell免杀套路](https://mp.weixin.qq.com/s?srcid=&scene=23&mid=2247483653&sn=e94f77981045eff9cf316f602b1fe305&idx=1&__biz=MzU0NDk1NjAwOQ%253D%253D&chksm=fb750a03cc028315c932a3de51d93be96a305090c44a11184bab7d9a0b22f1441f9ecd17cbee&mpshare=1%23rd)
 
 # 漏洞挖掘
 + [逻辑漏洞挖掘初步总结篇](https://mp.weixin.qq.com/s/SDmovMd4IhzNmoCLBIzRKA)
@@ -207,6 +219,7 @@ Record some common Web security sites
 + [实战经验丨业务逻辑漏洞探索之活动类漏洞](https://mp.weixin.qq.com/s?__biz=MzUzNTkyODI0OA==&mid=2247492541&idx=1&sn=aa300be8e78819191915b2051e3ee094&chksm=fafcaf6acd8b267c6591e50a4c1533fa475fa4d8b85315940c1a93b8dfc4f3de3fee1c9d587a&mpshare=1&scene=23&srcid=0320JwfnmLScnLpubL8sp0fX%23rd)
 + [xss-payload-list](https://github.com/ismailtasdelen/xss-payload-list)
 + [ios+mac app测试环境搭建](https://xz.aliyun.com/t/4703)
++ [浅析渗透实战中url跳转漏洞](https://xz.aliyun.com/t/5189)
 
 # 内网渗透
 + [三层网络靶场搭建&MSF内网渗透](https://mp.weixin.qq.com/s?__biz=MzI5MDU1NDk2MA==&mid=2247485799&idx=1&sn=94febf9e32834ce3284aae4c08ab715c&chksm=ec1f5c58db68d54e2cc82295234298e66c8b516a7f4f35be0f3c3bf4bc13ea7b8d995d6f6337&mpshare=1&scene=23&srcid=%23rd)
@@ -228,7 +241,6 @@ Record some common Web security sites
 + [PHP底层内核源码分析和扩展开发](https://github.com/huqinlou0123/php-internals-extended-development-course)
 + [深入理解PHP7之zval](https://github.com/laruence/php7-internal/blob/master/zval.md)
 + [我的从零开始 Web 前端自学之路](https://paper.tuisec.win/detail/7171cff0fc63582)
-+ [九种跨域方式实现原理](https://mp.weixin.qq.com/s?__biz=MzA3NTUzNjk1OA==&mid=2651562096&idx=2&sn=e13a8cd585f09ccc4acf90d4863636a5&chksm=84900f21b3e78637b81795f600e325cba6dcf5f97cd7c194584b751c0775067b2ee3f099337b&mpshare=1&scene=23&srcid=%23rd)
 + [优质前端博客](https://github.com/ljianshu/Blog)
 + [从CGI到FastCGI到PHP-FPM](http://yongxiong.leanote.com/post/%E4%BB%8ECGI%E5%88%B0FastCGI%E5%88%B0PHP-FPM)
 + [uWSGI、WSGI和uwsgi](https://www.cnblogs.com/wspblog/p/8575101.html)
@@ -254,3 +266,7 @@ Record some common Web security sites
 + [安全运维技巧整理](https://github.com/NB-STAR/Security-Operation)
 + [mysql用户root多密码成因](https://blog.csdn.net/redwand/article/details/78846538?from=groupmessage&isappinstalled=0)
 + [mysql的.frm .MYD .MYI .idb .par文件说明](https://blog.csdn.net/happydecai/article/details/82840631)
++ [应急响应系统之 Linux 主机安全检查](https://mp.weixin.qq.com/s?__biz=MzI5MDQ2NjExOQ==&mid=2247489990&idx=1&sn=db37670d24a97e33b58d30e8f653a909&chksm=ec1e29eedb69a0f8b561d32a08161958f1d340d43046ae8ff63ea4cad51c3494e8f864b30e82&mpshare=1&scene=23&srcid=%23rd)
++ [增加安全性的 HTTP Headers](https://yu-jack.github.io/2017/10/20/secure-header/)
++ [MacOS上路由表的操作记录](http://blog.joylau.cn/2018/12/14/MacOS-Route/)
++ [应急响应实战笔记](https://github.com/Bypass007/Emergency-Response-Notes)

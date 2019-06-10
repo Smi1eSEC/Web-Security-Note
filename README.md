@@ -95,6 +95,7 @@ Record some common Web security sites
 + [模拟登录一些知名的网站，为了方便爬取需要登录的网站](https://github.com/echohun/fuck-login)
 + [webshell收集项目](https://github.com/tennc/webshell)
 + [打造自己的渗透测试框架 — 溯光](https://bithack.io/forum/232?from=timeline&isappinstalled=0)
++ [jsEncrypter 加密传输爆破的Burp Suite插件](https://github.com/c0ny1/jsEncrypter)
 
 # 面经
 + [Pentest_Interview](https://github.com/Leezj9671/Pentest_Interview)
@@ -104,6 +105,8 @@ Record some common Web security sites
 + [面试「计算机操作系统」知识点大集合！](https://mp.weixin.qq.com/s?__biz=MzI4MDEwNzAzNg==&mid=2649445419&idx=1&sn=ea3cb5add4b48a3d86294254aa032170&chksm=f3a27558c4d5fc4e6fbf1a605ffe953f60bb4efffc310708f1dee71ad43981c6b0cd78ba8363&mpshare=1&scene=23&srcid=%23rd)
 + [网络信息安全从业者面试指南](https://github.com/FeeiCN/SecurityInterviewQuestions)
 + [安全面试经验收集](https://attacker.cc/index.php/archives/24/)
++ [PHP面试问答](https://github.com/colinlet/PHP-Interview-QA)
++ [最新BAT面试题](https://github.com/lengyue1024/BAT_interviews)
 
 # BypassWAF
 + [WAF攻防研究之四个层次Bypass WAF](https://xz.aliyun.com/t/15)
@@ -122,13 +125,19 @@ Record some common Web security sites
 # WEB安全
 
 ## XSS
-+ [绕过 CSP 从而产生 UXSS 漏洞](https://mp.weixin.qq.com/s?__biz=MzI5MDQ2NjExOQ==&mid=2247489458&idx=1&sn=fc6ce20bcfd3406e99209f1fdea75a7f&chksm=ec1e279adb69ae8c497ecf0634a241673158c5a46a2388905514e15093aca2a4793f249365ad&mpshare=1&scene=23&srcid=%23rd)
 + [XSS Payloads](http://www.xss-payloads.com/index.html)
 + [XSS payload](https://github.com/s0md3v/AwesomeXSS)
 + [Orange: A Wormable XSS on HackMD!](http://blog.orange.tw/2019/03/a-wormable-xss-on-hackmd.html)
 + [测试WAF来学习XSS姿势](https://www.anquanke.com/post/id/176185)
-+ [CSP绕过思路及总结](https://xz.aliyun.com/t/5084)
 + [无需括号与分号的XSS](https://www.anquanke.com/post/id/178610)
+
+## CSP
++ [前端防御从入门到弃坑--CSP变迁](https://paper.seebug.org/423/)
++ [CSP绕过思路及总结](https://xz.aliyun.com/t/5084)
++ [CSP Level 3浅析&简单的bypass](https://lorexxar.cn/2016/08/08/ccsp/)
++ [CSP绕过总结](https://hurricane618.me/2018/06/30/csp-bypass-summary/)
++ [通过浏览器缓存来bypass CSP script nonce](https://lorexxar.cn/2017/05/16/nonce-bypass-script/)
++ [那些年我们绕过的CSP](http://heartsky.info/2017/03/03/%E9%82%A3%E4%BA%9B%E5%B9%B4%E6%88%91%E4%BB%AC%E7%BB%95%E8%BF%87%E7%9A%84CSP/)
 
 ## SSRF
 + [SSRF 从入门到批量找漏洞](https://mp.weixin.qq.com/s?srcid=&scene=23&mid=2247489585&sn=fcef498cdd1a348e9f02b5861d59b15a&idx=1&__biz=MzI5MDQ2NjExOQ%253D%253D&chksm=ec1e2819db69a10f71e8bd5b342628381c2537549e59f3b1690527e465e417b6bc1be865ea9d&mpshare=1%23rd)
@@ -172,6 +181,9 @@ Record some common Web security sites
 + [Windows下三种mysql提权剖析](https://xz.aliyun.com/t/2719)
 + [mysql数据库提权总结](https://uuzdaisuki.com/2018/07/02/mysql%E6%95%B0%E6%8D%AE%E5%BA%93%E6%8F%90%E6%9D%83%E6%80%BB%E7%BB%93/)
 
+## 反序列化
++ [Phar与Stream Wrapper造成PHP RCE的深入挖掘](https://xz.aliyun.com/t/2958)
+
 ## 代码审计
 + [NAVEX->Precise and Scalable Exploit Generation for Dynamic Web Applications](http://zeroyu.xyz/2019/03/11/NAVEX-Precise-and-Scalable-Exploit-Generation-for-Dynamic-Web-Applications/)
 + [PHP内核层解析反序列化漏洞](https://mp.weixin.qq.com/s/RL8_kDoHcZoED1G_BBxlWw)
@@ -189,9 +201,14 @@ Record some common Web security sites
 + [PHP7和PHP5在安全上的区别](https://www.freebuf.com/articles/web/197013.html)
 + [PHP 7 的几处函数安全小变化](https://www.xmsec.cc/few-security-changes-between-php-7-and-php-5/)
 + [PHP 连接方式介绍以及如何攻击 PHP-FPM](https://mp.weixin.qq.com/s/z2JVc9kUkmRl9bDaEbkTFg)
-
++ [PHP 邮件漏洞小结](https://mp.weixin.qq.com/s?__biz=MzU1MzE3Njg2Mw==&mid=2247486554&idx=1&sn=bfcce52abfdb5b18155958460b68c550&chksm=fbf7962acc801f3cbbcb4ba10a345a22dcc3af556589d7b03c9c9350beae45133e21e543acb3&mpshare=1&scene=23&srcid=%23rd)
++ [详细解析PHP mail()函数漏洞利用技巧](https://www.anquanke.com/post/id/86028)
++ [PHP Webshell下绕过disable_function的方法](https://xz.aliyun.com/t/5320)
++ [RCE with strict disable_functions](https://github.com/w181496/FuckFastcgi)
 
 ## Python
++ [python安全和代码审计相关资料收集](https://github.com/bit4woo/python_sec)
++ [一篇文章带你理解漏洞之 Python 反序列化漏洞](https://www.k0rz3n.com/2018/11/12/%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E5%B8%A6%E4%BD%A0%E7%90%86%E8%A7%A3%E6%BC%8F%E6%B4%9E%E4%B9%8BPython%20%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%BC%8F%E6%B4%9E/)
 
 ## 指纹识别技术
 [Web指纹识别技术研究与优化实现](https://mp.weixin.qq.com/s/v92dLQSgLXv7JVkc8AUyvA)
@@ -210,6 +227,7 @@ Record some common Web security sites
 + [安全漏洞修复建议汇总](https://attacker.cc/index.php/archives/63/)
 + [Redis未授权访问在windows下的利用](https://www.anquanke.com/post/id/170360#h3-3)
 + [webshell免杀套路](https://mp.weixin.qq.com/s?srcid=&scene=23&mid=2247483653&sn=e94f77981045eff9cf316f602b1fe305&idx=1&__biz=MzU0NDk1NjAwOQ%253D%253D&chksm=fb750a03cc028315c932a3de51d93be96a305090c44a11184bab7d9a0b22f1441f9ecd17cbee&mpshare=1%23rd)
++ [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
 
 # 漏洞挖掘
 + [逻辑漏洞挖掘初步总结篇](https://mp.weixin.qq.com/s/SDmovMd4IhzNmoCLBIzRKA)
@@ -249,6 +267,8 @@ Record some common Web security sites
 + [技术分享周刊，每周五发布](https://github.com/ruanyf/weekly)
 + [Linux下gcc生成和使用静态库和动态库详解](http://www.eonew.cn/article_content/4.html)
 + [前端九部 - 入门者手册2019](https://www.yuque.com/fe9/basic)
++ [python开发笔记](https://bithack.io/forum/198)
++ [一些有趣且鲜为人知的 Python 特性](https://github.com/leisurelicht/wtfpython-cn)
 
 # 运维
 + [Docker中文文档](https://yeasy.gitbooks.io/docker_practice/compose/commands.html)

@@ -14,6 +14,7 @@ Record some common Web security sites
 - [BypassWAF](#BypassWAF)
 - [WEB安全](#WEB%E5%AE%89%E5%85%A8)
 - [漏洞挖掘](#%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98)
+- [渗透测试](#%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95)
 - [内网渗透](#%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F)
 - [扫描器开发](#%E6%89%AB%E6%8F%8F%E5%99%A8%E5%BC%80%E5%8F%91)
 - [开发](#%E5%BC%80%E5%8F%91)
@@ -35,6 +36,7 @@ Record some common Web security sites
 + [Web-CTF-Cheatsheet](https://github.com/w181496/Web-CTF-Cheatsheet)
 + [PHP_Code_Challenge](https://github.com/yaofeifly/PHP_Code_Challenge)
 + [CTFTraining](https://github.com/CTFTraining)
++ [为应对CTF比赛而搭建的各种环境](https://github.com/wonderkun/CTFENV)
 
 # Online-Tools
 + [XSS'OR](http://xssor.io/)
@@ -59,6 +61,7 @@ Record some common Web security sites
 + [upload-labs](https://github.com/c0ny1/upload-labs)
 + [HackTheBox](https://www.hackthebox.eu/)
 + [AttackDefense](https://attackdefense.com/)
++ [Weblogic环境搭建工具](https://github.com/QAX-A-Team/WeblogicEnvironment)
 
 # 信息搜集
 + [被动信息收集（上）](https://mp.weixin.qq.com/s?__biz=MzUyMzQzOTMwMQ==&mid=2247485824&idx=1&sn=8e1b6b73fde8117410c2ff6e10531a53&chksm=fa3dd42acd4a5d3cfb83795dcf74afe5c7b66ca588976c9048fc1d9ed320271a15d7cefc595e&mpshare=1&scene=23&srcid=1026WJ7g8j0JCi5kvVPZ9Ahz#rd)
@@ -110,6 +113,7 @@ Record some common Web security sites
 + [安全面试经验收集](https://attacker.cc/index.php/archives/24/)
 + [PHP面试问答](https://github.com/colinlet/PHP-Interview-QA)
 + [最新BAT面试题](https://github.com/lengyue1024/BAT_interviews)
++ [信息安全面试题汇总](https://github.com/Dollarsss/sec-interview)
 
 # BypassWAF
 + [WAF攻防研究之四个层次Bypass WAF](https://xz.aliyun.com/t/15)
@@ -124,6 +128,8 @@ Record some common Web security sites
 + [XXE Bypass WAF](https://www.anquanke.com/post/id/170655)
 + [Bypass XSS Detection WAF](https://medium.com/@th3law/fun-bypass-xss-detection-waf-cabd431e030e)
 + [对过WAF的一些认知](https://www.anquanke.com/post/id/177044)
++ [我的WafBypass之道（SQL注入篇）](https://xz.aliyun.com/t/368)
++ [我的WafBypass之道（Upload篇）](https://xz.aliyun.com/t/337)
 
 # WEB安全
 
@@ -133,6 +139,7 @@ Record some common Web security sites
 + [Orange: A Wormable XSS on HackMD!](http://blog.orange.tw/2019/03/a-wormable-xss-on-hackmd.html)
 + [测试WAF来学习XSS姿势](https://www.anquanke.com/post/id/176185)
 + [无需括号与分号的XSS](https://www.anquanke.com/post/id/178610)
++ [JS变异小技巧：使用JavaScript全局变量绕过XSS过滤器](https://zhuanlan.zhihu.com/p/75785844)
 
 ## CSP
 + [前端防御从入门到弃坑--CSP变迁](https://paper.seebug.org/423/)
@@ -158,6 +165,9 @@ Record some common Web security sites
 
 ## XXE
 + [一篇文章带你深入理解漏洞之 XXE 漏洞](https://xz.aliyun.com/t/3357)
+
+## 命令执行
++ [命令注入新玩法：巧借环境渗透测试目标](https://www.freebuf.com/articles/web/194574.html)
 
 ## 上传
 + [绕过GD库渲染的WEBSHELL生成器](https://wiki.ioin.in/soft/detail/1q)
@@ -195,6 +205,7 @@ Record some common Web security sites
 + [Audit-Learning](https://github.com/jiangsir404/Audit-Learning)
 + [php_bugs](https://github.com/bowu678/php_bugs)
 + [从一道题讲PHP复杂变量](https://xz.aliyun.com/t/4785)
++ [文件变化实时监控工具](https://github.com/TheKingOfDuck/FileMonitor)
 
 ## 解析漏洞
 + [Web中间件常见漏洞总结](https://www.t00ls.net/thread-51654-1-1.html)
@@ -217,15 +228,26 @@ Record some common Web security sites
 ## Python
 + [python安全和代码审计相关资料收集](https://github.com/bit4woo/python_sec)
 + [一篇文章带你理解漏洞之 Python 反序列化漏洞](https://www.k0rz3n.com/2018/11/12/%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E5%B8%A6%E4%BD%A0%E7%90%86%E8%A7%A3%E6%BC%8F%E6%B4%9E%E4%B9%8BPython%20%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%BC%8F%E6%B4%9E/)
++ [python爬虫教程系列](https://github.com/wistbean/learn_python3_spider)
++ [BH_US_11_Slaviero_Sour_Pickles_WP.PDF](http://media.blackhat.com/bh-us-11/Slaviero/BH_US_11_Slaviero_Sour_Pickles_WP.pdf)
 
 ## JAVA
++ [Java快速入门教程:使用IntelliJ IDEA+Maven 创建、开发、管理项目](https://ken.io/note/java-quickstart-idea-maven-console)
 + [java代码审计文章集合](https://www.cnblogs.com/r00tuser/p/10577571.html)
++ [浅谈Fastjson RCE漏洞的绕过史](https://www.freebuf.com/vuls/208339.html)
++ [Java Web安全-代码审计](https://www.freebuf.com/vuls/208339.html)
++ [浅析Java序列化和反序列化](https://github.com/gyyyy/footprint/blob/master/articles/2019/about-java-serialization-and-deserialization.md)
 
 ## 指纹识别技术
 + [Web指纹识别技术研究与优化实现](https://mp.weixin.qq.com/s/v92dLQSgLXv7JVkc8AUyvA)
 
 ## Burp 插件
 + [基于BurpSuite快速探测越权-Authz插件](https://gh0st.cn/archives/2019-06-27/1)
+
+## Fuzz Payload
++ [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
++ [A collection of web attack payloads.](https://github.com/foospidy/payloads)
++ [Command Injection Payload List](https://github.com/ismailtasdelen/command-injection-payload-list)
 
 ## 其他
 + [优秀的开源安全项目](https://github.com/Bypass007/Safety-Project-Collection)
@@ -243,6 +265,8 @@ Record some common Web security sites
 + [webshell免杀套路](https://mp.weixin.qq.com/s?srcid=&scene=23&mid=2247483653&sn=e94f77981045eff9cf316f602b1fe305&idx=1&__biz=MzU0NDk1NjAwOQ%253D%253D&chksm=fb750a03cc028315c932a3de51d93be96a305090c44a11184bab7d9a0b22f1441f9ecd17cbee&mpshare=1%23rd)
 + [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
 + [浅谈端口扫描技术](https://xz.aliyun.com/t/5376)
++ [404 Not Found的知识库](http://4o4notfound.org/index.php/page/4/)
++ [常见未授权访问漏洞总结](https://xz.aliyun.com/t/6103)
 
 # 漏洞挖掘
 + [初探漏洞挖掘基础](https://xz.aliyun.com/t/5428)
@@ -254,6 +278,15 @@ Record some common Web security sites
 + [xss-payload-list](https://github.com/ismailtasdelen/xss-payload-list)
 + [ios+mac app测试环境搭建](https://xz.aliyun.com/t/4703)
 + [浅析渗透实战中url跳转漏洞](https://xz.aliyun.com/t/5189)
++ [京东SRC小课堂系列文章](https://github.com/xiangpasama/JDSRC-Small-Classroom)
++ [src挖掘奇技淫巧](https://github.com/Wh0ale/SRC-experience)
++ [细说验证码安全 —— 测试思路大梳理](https://xz.aliyun.com/t/6029)
++ [漫谈挖洞](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458298625&idx=1&sn=358a35782f5de4833c563c26f11ef231&chksm=b181998b86f6109d605a6e89d4a7a4e8ce14af7dd3e3b05459f26ec71fb6a25c96d0c9c34d90&mpshare=1&scene=23&srcid&sharer_sharetime=1567271396052&sharer_shareid=a3b3f154db92e8d09cdde92bdb778322%23rd)
++ [SRC漏洞挖掘实用技巧](https://xz.aliyun.com/t/6155)
+
+# 渗透测试
++ [渗透测试中弹shell的多种方式及bypass](https://xz.aliyun.com/t/5768)
++ [渗透 Windows 7/2008，兼谈 Windows Server 2003 中文版渗透](https://www.bennythink.com/shadowbroker.html)
 
 # 内网渗透
 + [三层网络靶场搭建&MSF内网渗透](https://mp.weixin.qq.com/s?__biz=MzI5MDU1NDk2MA==&mid=2247485799&idx=1&sn=94febf9e32834ce3284aae4c08ab715c&chksm=ec1f5c58db68d54e2cc82295234298e66c8b516a7f4f35be0f3c3bf4bc13ea7b8d995d6f6337&mpshare=1&scene=23&srcid=%23rd)
@@ -270,6 +303,7 @@ Record some common Web security sites
 # 扫描器开发
 + [当子域名遇上搜索引擎](https://thief.one/2019/07/01/1/)
 + [扫描器开发笔记-404页面识别](https://xz.aliyun.com/t/5509)
++ [漏洞扫描技巧篇[Web 漏洞扫描器]](http://blog.fatezero.org/2019/07/15/web-scanner-trick/)
 
 # 开发
 + [HTTP安全标头及其工作原理（上）](https://mp.weixin.qq.com/s/wUij83cbV7cDuxpu_6EEbg)
@@ -291,6 +325,9 @@ Record some common Web security sites
 + [python开发笔记](https://bithack.io/forum/198)
 + [一些有趣且鲜为人知的 Python 特性](https://github.com/leisurelicht/wtfpython-cn)
 + [前端入门和进阶学习笔记](https://github.com/qianguyihao/Web)
++ [Redis 的 8 大应用场景！](https://segmentfault.com/a/1190000016188385)
++ [《深入理解Node.js：核心思想与源码分析》](https://github.com/yjhjstz/deep-into-node)
++ [OAuth 2.0 的四种方式](http://www.ruanyifeng.com/blog/2019/04/oauth-grant-types.html)
 
 # 运维
 + [Docker中文文档](https://yeasy.gitbooks.io/docker_practice/compose/commands.html)

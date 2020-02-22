@@ -118,6 +118,8 @@ Record some common Web security sites
 + [信息安全面试题汇总](https://github.com/Dollarsss/sec-interview)
 + [技术面试最后反问面试官的话](https://github.com/yifeikong/reverse-interview-zh)
 + [知道创宇面试笔记](https://wulidecade.cn/2019/08/30/%E7%9F%A5%E9%81%93%E5%88%9B%E5%AE%87%E9%9D%A2%E8%AF%95%E7%AC%94%E8%AE%B0/)
++ [简历常用例句](https://github.com/resumejob/awesome-resume)
++ [web-sec-interview](https://github.com/zhaoweiho/web-sec-interview/blob/master/README_CN.md)
 
 # BypassWAF
 + [WAF攻防研究之四个层次Bypass WAF](https://xz.aliyun.com/t/15)
@@ -189,6 +191,7 @@ Record some common Web security sites
 
 ## CSRF
 + [CSRF 原理与防御案例分析](https://mp.weixin.qq.com/s?__biz=MzI5MDQ2NjExOQ==&mid=2247489737&idx=1&sn=db25ccea70cbf6d80126f637109226b4&chksm=ec1e28e1db69a1f7c3f889dc65deb8aa7b6a89d51b30194147388f21e8111ba2cad93cbafb6e&mpshare=1&scene=23&srcid=%23rd)
++ [Bypass SameSite Cookies Default to Lax and get CSRF](https://medium.com/@renwa/bypass-samesite-cookies-default-to-lax-and-get-csrf-343ba09b9f2b)
 
 ## 同源策略
 + [跨域方式及其产生的安全问题](https://xz.aliyun.com/t/4470)
@@ -229,6 +232,7 @@ Record some common Web security sites
 + [深入探究：反向代理的攻击面 （上）](https://xz.aliyun.com/t/4577)
 + [深入探究：反向代理的攻击面 （下）](https://xz.aliyun.com/t/4644)
 + [中间件漏洞合集](https://mp.weixin.qq.com/s?__biz=MjM5MDkwNjA2Nw==&mid=2650374608&idx=1&sn=9dc025a8bbc372c0819a7f99f253ad1b&chksm=beb0826c89c70b7ab18819390d9d21bc1ce21ba6a0ab3bc80198d53f01d73802732a967c4289&mpshare=1&scene=23&srcid=%23rd)
++ [CMS、中间件漏洞检测利用合集](https://github.com/mai-lang-chai/Middleware-Vulnerability-detection)
 
 ## PHP
 + [PHP7和PHP5在安全上的区别](https://www.freebuf.com/articles/web/197013.html)
@@ -243,6 +247,8 @@ Record some common Web security sites
 + [在PHP应用程序中利用远程文件包含（RFI）并绕过远程URL包含限制](http://www.mannulinux.org/2019/05/exploiting-rfi-in-php-bypass-remote-url-inclusion-restriction.html)
 + [PHP绕过disable_function 总结与实践](https://blog.szfszf.top/tech/php%e7%bb%95%e8%bf%87disable_function-%e6%80%bb%e7%bb%93%e4%b8%8e%e5%ae%9e%e8%b7%b5/)
 + [PHP源码注解](https://github.com/hoohack/read-php-src)
++ [通过Antsword看绕过disable_functions](https://www.anquanke.com/post/id/195686)
++ [PHP 7.0-7.4 disable_functions bypass PoC (`*nix only`)](https://cxsecurity.com/issue/WLB-2020010227)
 
 ## Thinkphp
 + [Thinkphp3.x/5.x系列漏洞总结学习](https://mp.weixin.qq.com/s/Ri1nkSf3w7JoOQ7ZYh1YcA)
@@ -255,6 +261,7 @@ Record some common Web security sites
 + [BH_US_11_Slaviero_Sour_Pickles_WP.PDF](http://media.blackhat.com/bh-us-11/Slaviero/BH_US_11_Slaviero_Sour_Pickles_WP.pdf)
 + [Sour Pickles](https://media.blackhat.com/bh-us-11/Slaviero/BH_US_11_Slaviero_Sour_Pickles_Slides.pdf)
 + [Python魔法方法指南](https://pyzh.readthedocs.io/en/latest/python-magic-methods-guide.html)
++ [python 中遇到的坑，躲坑看这一篇就够了](https://mp.weixin.qq.com/s?__biz=MzAxMTkwODIyNA==&mid=2247494328&idx=2&sn=e52f73ef8cfb07067e5b05898164759c&chksm=9bbb4f57acccc641563bac9dd9d98d5fce8b8a2aee8450dd1c1350dc718837dc40ded3054b2c&mpshare=1&scene=23&srcid&sharer_sharetime=1582038784335&sharer_shareid=a3b3f154db92e8d09cdde92bdb778322%23rd)
 
 ### flask
 + [Flask 的 Context 机制](https://blog.tonyseek.com/post/the-context-mechanism-of-flask/)
@@ -265,6 +272,7 @@ Record some common Web security sites
 + [浅谈Fastjson RCE漏洞的绕过史](https://www.freebuf.com/vuls/208339.html)
 + [Java Web安全-代码审计](https://www.freebuf.com/vuls/208339.html)
 + [浅析Java序列化和反序列化](https://github.com/gyyyy/footprint/blob/master/articles/2019/about-java-serialization-and-deserialization.md)
++ [java 泛型详解-绝对是对泛型方法讲解最详细的，没有之一](https://blog.csdn.net/s10461/article/details/53941091)
 
 ## JS
 + [深入理解 JavaScript 原型](https://mp.weixin.qq.com/s/qg9LNm3awHBao1Du5n6KMQ)
@@ -292,6 +300,7 @@ Record some common Web security sites
 ## 协议
 + [从一道题深入HTTP协议与HTTP请求走私](https://xz.aliyun.com/t/6631)
 + [从一道题到协议层攻击之HTTP请求走私](https://xz.aliyun.com/t/6654)
++ [一文带你了解 HTTP 黑科技](https://segmentfault.com/a/1190000021664229)
 
 ## 编码
 + [彻底弄懂 Unicode 编码](https://blog.whezh.com/encoded/)
@@ -308,6 +317,7 @@ Record some common Web security sites
 + [web安全脑图](https://github.com/SecWiki/sec-chart/tree/master/Web%E5%AE%89%E5%85%A8)
 + [安全漏洞修复建议汇总](https://attacker.cc/index.php/archives/63/)
 + [Redis未授权访问在windows下的利用](https://www.anquanke.com/post/id/170360#h3-3)
++ [redis未授权访问个⼈总结](https://mp.weixin.qq.com/s?__biz=MzUyNTk1NDQ3Ng==&mid=2247484962&idx=1&sn=e0931d70c25bc35218fb26815531cb4b&chksm=fa177ae1cd60f3f78b54b51c9890f9cd2bc90ddfd1f8bd0b97e68269d4d64d845e9d8eb01789&mpshare=1&scene=23&srcid&sharer_sharetime=1579263439295&sharer_shareid=a3b3f154db92e8d09cdde92bdb778322%23rd)
 + [webshell免杀套路](https://mp.weixin.qq.com/s?srcid=&scene=23&mid=2247483653&sn=e94f77981045eff9cf316f602b1fe305&idx=1&__biz=MzU0NDk1NjAwOQ%253D%253D&chksm=fb750a03cc028315c932a3de51d93be96a305090c44a11184bab7d9a0b22f1441f9ecd17cbee&mpshare=1%23rd)
 + [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
 + [浅谈端口扫描技术](https://xz.aliyun.com/t/5376)
@@ -334,6 +344,8 @@ Record some common Web security sites
 + [漫谈挖洞](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458298625&idx=1&sn=358a35782f5de4833c563c26f11ef231&chksm=b181998b86f6109d605a6e89d4a7a4e8ce14af7dd3e3b05459f26ec71fb6a25c96d0c9c34d90&mpshare=1&scene=23&srcid&sharer_sharetime=1567271396052&sharer_shareid=a3b3f154db92e8d09cdde92bdb778322%23rd)
 + [SRC漏洞挖掘实用技巧](https://xz.aliyun.com/t/6155)
 + [原创干货 | WebFuzzing方法和漏洞案例总结](https://mp.weixin.qq.com/s?__biz=MzU5MzIyNTcxNA==&mid=2247485539&idx=1&sn=178b13f3a814ff415190acead242312c&chksm=fe12fafec96573e8944e5f625c4f3238b0dff8bb32eaee43e4f747299a73dd095415f150e0e3&mpshare=1&scene=23&srcid&sharer_sharetime=1572538235488&sharer_shareid=a3b3f154db92e8d09cdde92bdb778322%23rd)
++ [结合我的逻辑漏洞实战一些见解](https://xz.aliyun.com/t/6962)
++ [SRC逻辑漏洞挖掘详解以及思路和技巧](https://mp.weixin.qq.com/s?__biz=MzI5MDU1NDk2MA==&mid=2247488715&idx=1&sn=da788c044e2340cb4573739fa1d2237a&chksm=ec1f41f4db68c8e2dd526dca90aab30747edfa0bab8c038209f6fc1fa377064cf3d25d1bd875&mpshare=1&scene=23&srcid=&sharer_sharetime=1582112217383&sharer_shareid=200d0719c85cccf5545665231781df39#rd)
 
 # 渗透测试
 + [渗透测试中弹shell的多种方式及bypass](https://xz.aliyun.com/t/5768)
@@ -341,6 +353,7 @@ Record some common Web security sites
 + [三大渗透框架权限维持](https://mp.weixin.qq.com/s?__biz=MzA3NzE2MjgwMg==&mid=2448904307&idx=1&sn=2bc6e7d98b027ee1ec1d6ea84e559c8f&chksm=8b55c02ebc22493835408d3975801d62631c432bc21a3753fb3b1d5f87847e82f2a7aeccf55c&mpshare=1&scene=23&srcid&sharer_sharetime=1569687897621&sharer_shareid=a3b3f154db92e8d09cdde92bdb778322%23rd)
 + [端口渗透总结](http://docs.ioin.in/writeup/blog.heysec.org/_archives_577/index.html)
 + [渗透基础 | 黑客常用端口利用总结](https://mp.weixin.qq.com/s?__biz=MzI5MDU1NDk2MA==&mid=2247487859&idx=1&sn=361924a47da0fd55170c1afc41526c47&chksm=ec1f444cdb68cd5a0ce7e0e6f5c91c0937f10014a46e98e15d26071a7250f33fadc2398d80af&mpshare=1&scene=23&srcid&sharer_sharetime=1573027144353&sharer_shareid=a3b3f154db92e8d09cdde92bdb778322%23rd)
++ [记一次曲折而又有趣的渗透](https://nosec.org/home/detail/4121.html)
 
 # 内网渗透
 + [三层网络靶场搭建&MSF内网渗透](https://mp.weixin.qq.com/s?__biz=MzI5MDU1NDk2MA==&mid=2247485799&idx=1&sn=94febf9e32834ce3284aae4c08ab715c&chksm=ec1f5c58db68d54e2cc82295234298e66c8b516a7f4f35be0f3c3bf4bc13ea7b8d995d6f6337&mpshare=1&scene=23&srcid=%23rd)
@@ -360,11 +373,20 @@ Record some common Web security sites
 + [【基础向】实战讲解内网渗透思路](https://xz.aliyun.com/t/6920)
 + [使用Metasploit进行路由转发](https://www.jianshu.com/p/9eb48aba3fe0)
 + [内网渗透的常见协议(如kerbeos,ntlm,smb,ldap等)分析](https://daiker.gitbook.io/windows-protocol/)
++ [Windows 单行命令获取shell](https://mp.weixin.qq.com/s?__biz=MzA4MzMzOTQ4Mw==&mid=2453660764&idx=1&sn=a97e8e5161916c9a3d7f568756ec59c3&chksm=883cb5e8bf4b3cfe19f3a4839aa82566410adba82205608c121bd977da19cd4aad9dcc7862d8&mpshare=1&scene=23&srcid=0216dOyzpyPQNmhpyAWTLBqk&sharer_sharetime=1581788575354&sharer_shareid=a3b3f154db92e8d09cdde92bdb778322%23rd)
 
 # 扫描器开发
 + [当子域名遇上搜索引擎](https://thief.one/2019/07/01/1/)
 + [扫描器开发笔记-404页面识别](https://xz.aliyun.com/t/5509)
 + [漏洞扫描技巧篇[Web 漏洞扫描器]](http://blog.fatezero.org/2019/07/15/web-scanner-trick/)
++ [网页相似度判断](https://github.com/SPuerBRead/HTMLSimilarity)
+
+## 动态爬虫
++ [爬虫 JavaScript 篇[Web 漏洞扫描器]](http://blog.fatezero.org/2018/04/09/web-scanner-crawler-02/)
++ [NodeJS Headless 动态漏扫爬虫学习记录(爬虫篇)](https://xz.aliyun.com/t/7064)
++ [漏扫动态爬虫实践](https://www.anquanke.com/post/id/178339)
++ [为漏扫动态爬虫定制的浏览器](https://github.com/myvyang/chromium_for_spider)
++ [headless-chrome-crawler](https://github.com/yujiosaka/headless-chrome-crawler)
 
 ## XSS
 + [精细化扫描 XSS 漏洞 – 智能化场景分析](https://mp.weixin.qq.com/s/5s9-ZI5bORc_whTBQF3z0w)
